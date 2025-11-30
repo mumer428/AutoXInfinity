@@ -190,6 +190,8 @@ footer {
     max-width: 900px;
     margin: 4rem auto;
     text-align: center;
+    background-color: #222;
+    border-radius: 4%;
 }
 
 .about-story h2 {
@@ -199,15 +201,14 @@ footer {
 
 .about-story p {
     font-size: 1.1rem;
-    color: grey;
+    color: white;
     line-height: 1.8;
     margin-bottom: 1.5rem;
-    background-color: #222;
-    border-radius: 4%;
 }
 @media (max-width:770px) {
     nav ul {
         flex-direction: column;
     }
 }
+
 
