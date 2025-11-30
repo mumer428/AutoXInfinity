@@ -1,0 +1,113 @@
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.logo {
+    border-radius: 100%;
+    height: 50px;
+}
+.logos{
+    border-radius: 20%;
+    width:30px;
+    height:30px;
+    position: static;
+}
+
+header {
+    background-color: #333;
+    padding: 16px;
+}
+.follow{
+   position: absolute;
+   left:41%;
+}
+
+#slogan {
+    color: beige;
+    font-size: 30px;
+}
+#contact {
+    text-align: center;
+}
+
+.info {
+    margin-bottom: 32px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 16px;
+}
+
+form input, form textarea {
+    padding: 8px;
+    margin-top: 8px;
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #e63900;
+    display: inline;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav h1 {
+    margin: 0;
+    color: #ff4500;
+    padding-left: 8px;
+}
+
+nav ul {
+    position: absolute;
+    right: 16px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff4500;
+}
+iframe{
+    width:95%;
+    height: 200px;
+    border-radius: 2%;
+    filter: invert(100%);
+      border: 1px solid rgba(255, 69, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(255, 69, 0, 0.1);
+}
+footer {
+    text-align: center;
+    padding: 16px;
+    background-color: #333;
+}
