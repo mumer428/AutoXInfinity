@@ -5,7 +5,7 @@
     line-height: 1.6;
     
   background-image: url(https://image.fonwall.ru/o/nr/bmw-m5-f90-in-the-dark-black-car.jpg?auto=compress&fit=crop&w=2560&h=1600&domain=img3.fonwall.ru);
-    background-size: 100vh;
+    background-size: contain;
 }
 
 .logo {
@@ -178,6 +178,7 @@ iframe{
     position: static;
 
 }
+
 
 
 
